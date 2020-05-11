@@ -10,7 +10,7 @@ import SignInAndSignUpPage from './page/signin-and-signup/signin-and-signup.comp
 import { auth, createUserProfileDocument } from './components/firebase/firebase.utils';
 
 import {connect} from 'react-redux';
-import { setCurrentUser} from '../src/redux/user/user.action';
+import { setCurrentUser} from './redux/user/user.actions';
 
 class App extends React.Component {
   // constructor(){
